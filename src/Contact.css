@@ -1,0 +1,139 @@
+/* Contact Us Styles */
+.contact-container {
+    padding: 80px 50px;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+}
+
+.contact-header-section {
+    margin-bottom: 50px;
+}
+
+.contact-heading {
+    font-size: 32px;
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+
+.contact-subheading {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.contact-content-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 550px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.address-details {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.google-map {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 550px;
+    text-align: left;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff4d4d;
+}
+
+.send-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #e63939;
+}
+
+.status-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-content-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .map-container,
+    .form-container {
+        max-width: 100%;
+    }
+}
