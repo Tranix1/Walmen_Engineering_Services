@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="footer-content-container">
         
         <div className="footer-column footer-about">
-          <h3>Solid Wedge</h3>
+          <h3>WALMEM ENGINEERING</h3>
           <p>
-            At Solid Wedge, we specialize in **power solutions, automation, and electrical engineering** to drive industrial efficiency and sustainability.
+            At WALMEM ENGINEERING, we specialize in **power solutions, automation, and electrical engineering** to drive industrial efficiency and sustainability.
           </p>
           <div className="social-links">
             <a href="https://facebook.com" aria-label="Facebook"><FaFacebookF /></a>
@@ -46,8 +46,8 @@ const Footer = () => {
         <div className="footer-column footer-contact">
           <h3>Contact Us</h3>
           <p>13A, Simon Mazorodze, Waterfalls,<br />Harare, Zimbabwe</p>
-          <p>Phone: **(+263) 71 241 9051**</p>
-          <p>Email: **sales@solid-wedge.com**</p>
+          <p>Phone: **(+263) 715 245 925**</p>
+          <p>Email: **enquiries@walmem.com**</p>
         </div>
       </div>
       

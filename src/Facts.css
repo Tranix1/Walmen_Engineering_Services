@@ -1,0 +1,37 @@
+/* Facts Section */
+.facts-section {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.facts-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.facts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.fact-card {
+  text-align: center;
+}
+
+.fact-card h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.fact-card p {
+  font-size: 18px;
+  font-weight: 300;
+}

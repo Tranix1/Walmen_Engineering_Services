@@ -1,0 +1,63 @@
+/* Services Carousel Section */
+.services-carousel {
+  padding: 50px 0;
+  background-color: #2c2f33;
+}
+
+.carousel-container {
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-wrapper {
+  display: flex;
+  align-items: center;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 300px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-content {
+  background-color: #23272a;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Specific slide colors */
+.mining-tech-bg {
+  background-color: #1a1a1a;
+}
+
+.sustainability-bg {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.manufacturing-bg {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slide {
+    width: 90%;
+  }
+}

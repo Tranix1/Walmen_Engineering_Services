@@ -1,0 +1,73 @@
+/* Engineering Section */
+.engineering-section {
+  padding: 80px 50px;
+  background-color: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.engineering-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.engineering-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.engineering-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.engineering-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.engineering-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.engineering-text h3 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.engineering-text p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.engineering-text ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.engineering-text li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.engineering-text li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #ff4d4d;
+  font-weight: bold;
+}

@@ -1,0 +1,104 @@
+/* Testimonials Carousel Section */
+.testimonials-carousel {
+  background-color: #f0f2f5;
+  padding: 80px 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.testimonials-heading {
+  font-size: 32px;
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+.testimonials-subheading {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.carousel-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides-wrapper {
+  display: flex;
+  align-items: center;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 350px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Style for individual testimonial cards within the carousel */
+.testimonial-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-card .quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.client-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.client-info {
+  text-align: left;
+}
+
+.client-company {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.client-industry {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slide {
+    width: 95%;
+  }
+}
