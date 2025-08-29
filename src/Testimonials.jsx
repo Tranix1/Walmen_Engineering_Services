@@ -10,7 +10,7 @@ import './Testimonials.css';
 
 const testimonialsData = [
   {
-    quote: 'The strategic insights provided by The Solid Wedge have significantly boosted our agricultural efficiency and production capabilities.',
+    quote: 'The strategic insights provided by The Welmem Engineering have significantly boosted our agricultural efficiency and production capabilities.',
     logo: hulettsLogo,
     company: 'Huletts',
     industry: 'Agriculture & Sugar Production'
@@ -22,7 +22,7 @@ const testimonialsData = [
     industry: 'Mining & Precious Metals'
   },
   {
-    quote: 'The Solid Wedge helped us implement smart mining solutions, increasing productivity while reducing environmental impact.',
+    quote: 'The Welmem Engineering helped us implement smart mining solutions, increasing productivity while reducing environmental impact.',
     logo: zimplatsLogo,
     company: 'Zimplats',
     industry: 'Platinum Mining & Process'
@@ -40,7 +40,7 @@ const testimonialsData = [
     industry: 'Power Generation'
   },
   {
-    quote: 'SolidWedge provided exceptional support and expertise, helping us meet our project deadlines efficiently.',
+    quote: 'Welmem Engineering provided exceptional support and expertise, helping us meet our project deadlines efficiently.',
     logo: client3Logo,
     company: 'Client Company 3',
     industry: 'Heavy Industry'

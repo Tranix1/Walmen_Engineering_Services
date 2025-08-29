@@ -1,7 +1,7 @@
 /* Our Services Section */
 .services-section {
   padding: 80px 50px;
-  background-color: #2c2f33;
+  background-color: #4B4B4B; /* New Background */
   color: #fff;
   text-align: center;
 }
@@ -9,11 +9,12 @@
 .services-section .section-heading {
   font-size: 36px;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .services-section .section-subheading {
   font-size: 18px;
-  color: #ccc;
+  color: #d3d3d3; /* slightly lighter than #ccc for contrast */
   max-width: 800px;
   margin: 0 auto 40px;
 }
@@ -26,9 +27,9 @@
 }
 
 .service-card {
-  background-color: #3a3f44;
+  background-color: #5a5a5a; /* slightly lighter than section bg */
   padding: 40px;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 300px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -36,23 +37,24 @@
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
 .service-icon-container {
   display: inline-block;
-  color: #ff4d4d;
   font-size: 64px;
   margin-bottom: 20px;
+  /* color: #ffcc00;  */
 }
 
 .service-title {
   font-size: 24px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .service-description {
-  font-size: 14px;
-  color: #ccc;
+  font-size: 15px;
+  color: #e0e0e0; /* lighter for readability */
   line-height: 1.6;
 }

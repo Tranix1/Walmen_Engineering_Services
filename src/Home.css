@@ -28,7 +28,7 @@ body {
 }
 
 .logo-red {
-  color: #ff4d4d;
+  color: #009900;
 }
 
 .nav-menu ul {
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-menu a:hover {
-  color: #ff4d4d;
+  color: #009900;
 }
 
 /* Hero Section */
@@ -65,7 +65,7 @@ body {
 
 .hero-subheading {
   font-size: 32px;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 20px;
 }
 
@@ -123,7 +123,7 @@ body {
 }
 
 .sustainability-bg {
-  background-color: #ff4d4d;
+  background-color: #009900;
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ body {
 
 .section-heading {
   font-size: 32px;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 10px;
 }
 
@@ -180,7 +180,7 @@ body {
 .service-icon {
   width: 64px;
   height: 64px;
-  stroke: #ff4d4d; /* Initial icon color */
+  stroke: #009900; /* Initial icon color */
   fill: transparent; /* Makes the center transparent */
   transition: stroke 0.3s ease-in-out;
 }
@@ -188,7 +188,7 @@ body {
 /* Change icon color on card hover */
 .service-card:hover .service-icon {
   stroke: #fff; /* White icon outline on hover */
-  fill: #ff4d4d; /* Fills the icon with the brand color on hover */
+  fill: #009900; /* Fills the icon with the brand color on hover */
 }
 
 /* Style the text within the card */
@@ -201,7 +201,7 @@ body {
 
 /* Change title color on card hover */
 .service-card:hover .service-title {
-  color: #ff4d4d; /* Change title color to red on hover */
+  color: #009900; /* Change title color to red on hover */
 }
 
 .service-description {
@@ -212,7 +212,7 @@ body {
 
 /* Change description color on card hover */
 .service-card:hover .service-description {
-  color: #ff4d4d; /* Change description color to red on hover */
+  color: #009900; /* Change description color to red on hover */
 }
 
 /* About Section */
@@ -226,7 +226,7 @@ body {
 .about-section h2 {
   font-size: 32px;
   margin-bottom: 10px;
-  color: #ff4d4d;
+  color: #009900;
 }
 
 .about-section p {
@@ -262,7 +262,7 @@ body {
 
 .about-content li::before {
   content: '✔';
-  color: #ff4d4d;
+  color: #009900;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -296,7 +296,7 @@ body {
 .fact-card h3 {
   font-size: 48px;
   font-weight: bold;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 5px;
 }
 
@@ -381,7 +381,7 @@ body {
 
 .engineering-text h3 {
   font-size: 36px;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 20px;
 }
 
@@ -406,7 +406,7 @@ body {
 
 .engineering-text li::before {
   content: '✔';
-  color: #ff4d4d;
+  color: #009900;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -421,7 +421,7 @@ body {
 
 .testimonials-heading {
   font-size: 32px;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 10px;
 }
 
@@ -545,14 +545,14 @@ body {
 .why-us-icon {
   width: 64px;
   height: 64px;
-  stroke: #ff4d4d;
+  stroke: #009900;
   fill: transparent;
   transition: stroke 0.3s ease-in-out;
 }
 
 .why-us-card:hover .why-us-icon {
   stroke: #fff;
-  fill: #ff4d4d;
+  fill: #009900;
 }
 
 .why-us-title {
@@ -563,7 +563,7 @@ body {
 }
 
 .why-us-card:hover .why-us-title {
-  color: #ff4d4d;
+  color: #009900;
 }
 
 .why-us-description {
@@ -573,7 +573,7 @@ body {
 }
 
 .why-us-card:hover .why-us-description {
-  color: #ff4d4d;
+  color: #009900;
 }
 
 /* FAQ Section */
@@ -585,7 +585,7 @@ body {
 
 .faq-heading {
   font-size: 32px;
-  color: #ff4d4d;
+  color: #009900;
   margin-bottom: 10px;
 }
 
@@ -611,7 +611,7 @@ body {
 }
 
 .faq-item.active {
-  background-color: #ff4d4d;
+  background-color: #009900;
 }
 
 .faq-item.active p,
@@ -636,7 +636,7 @@ body {
 .faq-toggle-icon {
   font-size: 24px;
   font-weight: bold;
-  color: #ff4d4d;
+  color: #009900;
   transition: color 0.3s ease;
 }
 

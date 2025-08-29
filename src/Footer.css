@@ -1,6 +1,6 @@
 /* Footer Section */
 .footer-section {
-    background-color: #2c2f33; /* Dark background from screenshot */
+    background-color: #3c3c3c; /* darker than body but lighter than pure black */
     color: #fff;
     padding: 60px 50px 20px;
 }
@@ -12,7 +12,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 40px;
-    border-bottom: 1px solid #444; /* Separator line */
+    border-bottom: 1px solid #555; /* softer separator */
 }
 
 .footer-column {
@@ -24,23 +24,26 @@
 .footer-column h3 {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #ff4d4d; /* Red heading color */
+    color: #009900; /* gold accent for headings */
+    font-weight: 600;
 }
 
 .footer-column p {
     font-size: 14px;
     line-height: 1.6;
+    color: #ddd;
 }
 
 .footer-about .social-links a {
-    color: #fff;
+    color: #ccc;
     margin-right: 15px;
-    font-size: 24px;
-    transition: color 0.3s ease;
+    font-size: 22px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .footer-about .social-links a:hover {
-    color: #ff4d4d; /* Hover effect for icons */
+    color: #009900; /* gold hover */
+    transform: scale(1.2);
 }
 
 .footer-links ul,
@@ -65,28 +68,29 @@
 
 .footer-links a:hover,
 .footer-services a:hover {
-    color: #ff4d4d;
+    color: #009900; /* gold on hover */
 }
 
 .footer-contact p {
     margin: 0 0 10px;
     font-size: 14px;
+    color: #ddd;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    color: #999;
-    font-size: 12px;
+    color: #aaa;
+    font-size: 13px;
 }
 
 .footer-bottom p {
     margin: 5px 0;
 }
 
-/* Specific styling for the copyright and design text */
 .footer-bottom p:first-child {
     font-weight: bold;
+    color: #fff;
 }
 
 /* Responsive design */

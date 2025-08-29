@@ -30,7 +30,7 @@ const About = () => {
       ref={aboutSectionRef}
       className={`about-section ${isAboutVisible ? 'visible' : 'hidden'}`}
     >
-      <h2>ABOUT WALMEM ENGINEERING</h2>
+      <h2 style={{color:"#009900"}}>ABOUT WALMEM ENGINEERING</h2>
       <p>Promoting engineering efficiency and creating wealth through quality service delivery.</p>
       <div className="about-content">
         <div className="text-block">

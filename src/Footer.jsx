@@ -45,15 +45,15 @@ const Footer = () => {
 
         <div className="footer-column footer-contact">
           <h3>Contact Us</h3>
-          <p>13A, Simon Mazorodze, Waterfalls,<br />Harare, Zimbabwe</p>
-          <p>Phone: **(+263) 715 245 925**</p>
-          <p>Email: **enquiries@walmem.com**</p>
+          <p>G6 Lisna Garvie 104 Josiah Chinamano <br />close Harare, Zimbabwe</p>
+          <p>Phone: (+263) 715 245 925</p>
+          <p>Phone: (+263) 772 185 032</p>
+          <p>Email: enquiries@walmem.com</p>
         </div>
       </div>
       
       <div className="footer-bottom">
-        <p>© Copyright Solid Wedge All Rights Reserved</p>
-        <p>Designed by BrightFrame</p>
+        <p>© Copyright WALMEM ENGINEERING All Rights Reserved</p>
       </div>
     </footer>
   );
